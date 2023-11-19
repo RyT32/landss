@@ -28,10 +28,10 @@
 }
 
 .header-logo{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-grow: 1;
+    display: flex; /*влючение flexbox*/
+    flex-direction: row;/* расположение по ox*/
+    align-items: center;/* расположение по oy*/
+    flex-grow: 1;/*размер относительно других элементов*/
 
 }
 
@@ -122,10 +122,16 @@
 
 }
 
-.cards{
+/* .cards{
     display: inline-block;
     width: 25%;
     margin: 0px 45px;
+} */
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 /* FOOTER */
