@@ -142,6 +142,42 @@
     padding: 100px 0px;
 }
 
+.footer-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.footer-img{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
+
 .copyright{
     color: white;
+}
+
+.footer-search{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.footer-search-input{
+    height: 40px;
+    flex-grow: 3;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer-search-button{
+    height: 40px;
+    flex-grow: 2;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
